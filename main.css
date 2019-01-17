@@ -1,0 +1,129 @@
+/* quickAccess */
+.quickAccess_holder {
+	display: block;
+	position: fixed;
+	z-index: 99;
+}
+
+/* left */
+.quickAccess_holder.left {
+	top: 9%;
+	left: 0px;
+}
+.quickAccess_holder.left ul li a {
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+.quickAccess_holder.left ul li a.active {
+	width: 100px;
+    left: 0;
+}
+.quickAccess_holder.left ul li a.inactive {
+	width: 0px;
+}
+
+/* right */
+.quickAccess_holder.right {
+	top: 19%;
+	right: 0px;
+}
+.quickAccess_holder.right ul li a {
+	margin-bottom: 9px;
+	border-radius: 5px 0px 0px 5px;
+}
+.quickAccess_holder.right ul li a.active {
+	margin-left: -100px;
+	width: 100px;
+}
+.quickAccess_holder.right ul li a.inactive {
+	margin-left: 0px;
+	width: 0px;
+}
+
+/* top */
+.quickAccess_holder.top {
+	left: 30%;
+	top: 0px;
+}
+.quickAccess_holder.top ul li {
+	float: left;
+}
+.quickAccess_holder.top ul li a {
+	margin-right: 9px;
+	border-radius: 0px 0px 5px 5px;
+}
+.quickAccess_holder.top ul li a.active {
+	width: 100px;
+}
+.quickAccess_holder.top ul li a.inactive {
+	width: 0px;
+}
+
+/* bottom */
+.quickAccess_holder.bottom {
+	left: 30%;
+	bottom: 0px;
+}
+.quickAccess_holder.bottom ul li {
+	float: left;
+}
+.quickAccess_holder.bottom ul li a {
+	margin-right: 9px;
+	border-radius: 5px 5px 0px 0px;
+}
+.quickAccess_holder.bottom ul li a.active {
+	width: 100px;
+}
+.quickAccess_holder.bottom ul li a.inactive {
+	width: 0px;
+}
+
+.quickAccess_holder ul, .quickAccess_holder ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.quickAccess_holder ul li a {
+	color: #333;
+/*	font: 18px/36px "Segoe UI";
+	border: 1px solid #fff;*/
+	display: block;
+	position: relative;
+	background: #404040;
+/*	background: #669966; */
+	background-repeat: no-repeat;
+	text-decoration: none;
+	padding-left: 85px;
+	background-position: 10px center !important;
+	height: 70px;
+	width: 0px;
+	overflow: hidden;
+	font: 14px/36px Arial;
+    line-height: 5em;
+}
+.quickAccess_holder.dark ul li a {
+	color: #333;
+}
+.quickAccess_holder.medium_dark ul li a {
+	color: #777;
+}
+.quickAccess_holder.light ul li a {
+	color: #fff;
+}
+
+
+.light a.quickAccess-varia_6 {
+	background: url(varia_6.png) no-repeat center 3px;
+}
+
+.light a.quickAccess-varia_2 {
+	background: url(varia_2.png) no-repeat center 3px;
+}
+
+.light a.quickAccess-varia_5 {
+	background: url(varia_5.png) no-repeat center 3px;
+}
+
+.light a.quickAccess-varia_3 {
+	background: url(varia_3.png) no-repeat center 2px;
+}
